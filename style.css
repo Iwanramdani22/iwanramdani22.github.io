@@ -125,6 +125,10 @@ li {
   color: #fff;
 }
 
+#experience {
+  margin: 3rem;
+}
+
 #experience h4 {
   text-align: center;
 }
@@ -133,4 +137,13 @@ h4,
 h5,
 p {
   color: #fff;
+}
+
+hr {
+  color: aquamarine;
+  size: 3px;
+}
+
+#education {
+  margin: 3rem;
 }
