@@ -4,7 +4,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 body {
-  background-image: url(/img/399686-maingear-gaming-laptop-computer-game-videogame-3-748x475.jpg);
+  background-image: url(/img/background_a.jpg);
   background-size: cover;
 }
 .header {
@@ -120,9 +120,17 @@ a {
   padding-top: 2rem;
   text-align: justify;
 }
+#about ul,
+li {
+  color: #fff;
+}
 
-#experience h3,
-th,
-td {
+#experience h4 {
+  text-align: center;
+}
+body h3,
+h4,
+h5,
+p {
   color: #fff;
 }
