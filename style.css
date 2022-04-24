@@ -7,6 +7,8 @@ body {
   background-image: url(/img/background_a.jpg);
   background-size: cover;
 }
+
+/* Header */
 .header {
   height: 50px;
   background-color: black;
@@ -37,6 +39,7 @@ body {
   color: #c25858;
   transition: 0.3s;
 }
+/* End Header */
 
 a {
   text-decoration: none;
@@ -106,12 +109,18 @@ a {
   padding-top: 6rem;
   background-image: url(/img/background.jpg);
   background-size: cover;
-  height: 500px;
+  height: 600px;
   text-align: center;
 }
 
+/* About */
 #about {
   margin: 3rem;
+}
+#about h2 {
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  text-decoration: underline solid #149ddd;
 }
 #about img {
   padding-top: 3rem;
@@ -124,14 +133,24 @@ a {
 li {
   color: #fff;
 }
+/* End About */
 
+/* Experience */
 #experience {
   margin: 3rem;
+  background-image: url(/img/backgroundall.jpg);
+}
+
+#experience h3 {
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  text-decoration: underline solid #149ddd;
 }
 
 #experience h4 {
   text-align: center;
 }
+
 body h3,
 h4,
 h5,
@@ -141,9 +160,95 @@ p {
 
 hr {
   color: aquamarine;
-  size: 3px;
 }
+/* End Experience */
 
+/* Education */
 #education {
   margin: 3rem;
+}
+
+#education h3 {
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  text-decoration: underline solid #149ddd;
+}
+/* End Education */
+
+/* Skill */
+#skill {
+  margin: 3rem;
+  padding-bottom: 3rem;
+}
+
+#skill h3 {
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  text-decoration: underline solid #149ddd;
+}
+
+.css {
+  text-align: right;
+  width: 65%;
+  background-color: #26e971;
+}
+.html {
+  text-align: right;
+  width: 75%;
+  background-color: #149ddd;
+}
+.javascript {
+  text-align: right;
+  width: 50%;
+  background-color: burlywood;
+}
+.figma {
+  text-align: right;
+  width: 70%;
+  background-color: aquamarine;
+}
+.java {
+  text-align: right;
+  width: 60%;
+  background-color: blanchedalmond;
+}
+.python {
+  text-align: right;
+  width: 65%;
+  background-color: dodgerblue;
+}
+.database {
+  text-align: right;
+  width: 50%;
+  background-color: cornflowerblue;
+}
+#skill .photoshop {
+  text-align: right;
+  width: 60%;
+  background-color: darkkhaki;
+}
+/* End Skill */
+
+/* Portofolio */
+#portofolio {
+  margin: 3rem;
+  background-image: url(/img/background-foto-studio-hd-27.jpg);
+  margin-bottom: 3rem;
+}
+#portofolio h3 {
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  text-decoration: underline solid #149ddd;
+}
+.card:hover img {
+  transform: scale(1.2);
+}
+/* End Portofolio */
+
+#contact {
+  margin: 3rem;
+  background-image: url(/img/20400436.jpg);
+}
+footer {
+  margin-top: 3rem;
 }
